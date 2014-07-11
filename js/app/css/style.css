@@ -1,0 +1,48 @@
+#technology > div {
+  padding: 5px;
+  background: #7F7F7F;
+  margin: 2px;
+  color: #FFF;
+  width: 200px;
+  cursor: pointer;
+}
+
+#left {
+  float: left;
+  width: 400px;
+}
+#right {
+  float: left;
+  width: 400px;
+}
+
+.profile-item {
+  background: #7F7F7F;
+  margin: 1px;
+  padding: 5px;
+  color: #fff;
+}
+.profile-item > div {
+  display: inline-block;
+}
+.profile-item .name {
+  color: #fff;
+  width: 150px;
+}
+.profile-item .link a {
+  color: #fff;
+}
+
+#selected-technology {
+  overflow: hidden;
+  margin: 0 0 20px 0;
+}
+
+#selected-technology div {
+  width: 200px;
+  background: #7F7F7F;
+  margin: 1px;
+  padding: 5px;
+  color: #fff;
+  float: left;
+}
